@@ -1,0 +1,30 @@
+nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-button {
+  background-color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+.nav-button:focus {
+  outline: none;
+}
+
+.nav-logo {
+  width: 45px;
+  margin-left: 15px;
+}
+
+.cart {
+  width: 30px;
+}
