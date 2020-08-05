@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styling/NavBar.css";
-import logo from "../logo1.png";
+import logo from "../navbar-logo.jpg";
 import cart from "../cart.png";
 
 export default class NavBar extends Component {
@@ -9,12 +9,14 @@ export default class NavBar extends Component {
     return (
       <nav>
         <Link to="/">
-          <img src={logo} alt="logo" className="nav-logo" />
+          <h3 style={{ marginLeft: "30px" }}>
+            <strong>REACT-K</strong>
+          </h3>
         </Link>
         <ul>
           <li className="nav-menu">
             <Link to="/">
-              <p>REACT-K</p>
+              <img src={logo} alt="logo" className="nav-logo" />
             </Link>
           </li>
         </ul>
