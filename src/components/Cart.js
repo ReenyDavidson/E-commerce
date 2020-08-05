@@ -10,7 +10,7 @@ export default class Cart extends Component {
           const theme = isLightTheme ? light : dark;
           return (
             <div style={{ background: theme.bg, color: theme.text }}>
-              I am cart page
+              CART IS EMPTY
             </div>
           );
         }}
