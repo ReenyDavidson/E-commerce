@@ -14,7 +14,7 @@ export default class NavBar extends Component {
         <ul>
           <li className="nav-menu">
             <Link to="/">
-              <p>FOR MEN</p>
+              <p>REACT-K</p>
             </Link>
           </li>
         </ul>
