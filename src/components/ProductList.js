@@ -12,8 +12,23 @@ export default class ProductList extends Component {
           <div>
             <Slideshow />
           </div>
-          <div>something might be here</div>
-          <div>something else here</div>
+         <div>something might be here</div>
+          <div
+            style={{
+              background: "black",
+              color: "white",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "30%",
+              marginLeft: "35%",
+              padding: "30px",
+            }}
+          >
+            <h2>
+              <strong> FEATURED WATCHES.</strong>
+            </h2>
+          </div>
           <div className="ui four column grid">
             <ProductConsumer>
               {(context) => {
