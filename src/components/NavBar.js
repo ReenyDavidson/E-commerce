@@ -9,7 +9,7 @@ export default class NavBar extends Component {
     return (
       <nav>
         <Link to="/">
-          <h3 style={{ marginLeft: "30px" }}>
+          <h3 style={{ marginLeft: "30px", color: "#ff1493" }}>
             <strong>REACT-K</strong>
           </h3>
         </Link>
