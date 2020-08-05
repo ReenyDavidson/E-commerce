@@ -19,6 +19,7 @@ body {
   background-color: white;
 }
 .card {
-  padding-left: 40px;
+  padding-left: 10px;
   margin-top: 60px;
+  margin-left: 25px;
 }
