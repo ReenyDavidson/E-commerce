@@ -14,23 +14,67 @@ const Slideshow = () => {
     <div className="slide-container">
       <Fade>
         <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[0]} className="img-slide" />
+          <div
+            className="image-container"
+            style={{
+              width: "1400px",
+              height: "600px",
+              backgroundImage: `url(${fadeImages[0]})`,
+              backgroundAttachment: "fixed",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            hajj ,
           </div>
         </div>
         <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[1]} className="img-slide" />
+          <div
+            className="image-container"
+            style={{
+              width: "1400px",
+              height: "600px",
+              backgroundImage: `url(${fadeImages[1]})`,
+              backgroundAttachment: "fixed",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            hwehkwerhk
           </div>
         </div>
         <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[2]} className="img-slide" />
+          <div
+            className="image-container"
+            style={{
+              width: "1400px",
+              height: "600px",
+              backgroundImage: `url(${fadeImages[2]})`,
+              backgroundAttachment: "fixed",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            bkjbbkj
           </div>
         </div>
         <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[3]} className="img-slide" />
+          <div
+            className="image-container"
+            style={{
+              width: "1400px",
+              height: "600px",
+              backgroundImage: `url(${fadeImages[3]})`,
+              backgroundAttachment: "fixed",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            hkhkj
           </div>
         </div>
       </Fade>
