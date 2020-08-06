@@ -8,6 +8,7 @@ import Cart from "./Cart";
 import Default from "./Default";
 import { ThemeContextProvider } from "./contexts/ThemeContexts";
 import Detail from "./Detail";
+import Footer from "./Footer";
 
 export default class App extends Component {
   render() {
@@ -28,6 +29,7 @@ export default class App extends Component {
 
           <Route component={Default} />
         </Switch>
+        <Footer/>
       </React.Fragment>
     );
   }

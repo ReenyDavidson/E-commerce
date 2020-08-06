@@ -7,12 +7,12 @@ import cart from "../cart.png";
 export default class NavBar extends Component {
   render() {
     return (
-      <nav>
+      <nav className="nav-container">
+        <div className="brand-logo" >
         <Link to="/">
-          <h3 style={{ marginLeft: "30px", color: "#ff1493" }}>
-            <strong>REACT-K</strong>
-          </h3>
+            <strong>REACT-TEAM-K</strong>
         </Link>
+        </div>
         <ul>
           <li className="nav-menu">
             <Link to="/">

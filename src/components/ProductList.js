@@ -12,7 +12,7 @@ export default class ProductList extends Component {
           <div>
             <Slideshow />
           </div>
-         <div>something might be here</div>
+        
           <div
             style={{
               background: "black",
@@ -26,7 +26,7 @@ export default class ProductList extends Component {
             }}
           >
             <h2>
-              <strong> FEATURED WATCHES.</strong>
+              <strong> FEATURED WATCHES</strong>
             </h2>
           </div>
           <div className="ui four column grid">

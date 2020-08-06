@@ -19,7 +19,7 @@ const Slideshow = () => {
             className="image-container"
             style={{
               width: "1400px",
-              height: "600px",
+              height: "500px",
               backgroundImage: `url(${fadeImages[0]})`,
               backgroundAttachment: "fixed",
               backgroundPosition: "center",
@@ -38,7 +38,7 @@ const Slideshow = () => {
             className="image-container"
             style={{
               width: "1400px",
-              height: "600px",
+              height: "500px",
               backgroundImage: `url(${fadeImages[1]})`,
               backgroundAttachment: "fixed",
               backgroundPosition: "center",
@@ -57,7 +57,7 @@ const Slideshow = () => {
             className="image-container"
             style={{
               width: "1400px",
-              height: "600px",
+              height: "500px",
               backgroundImage: `url(${fadeImages[2]})`,
               backgroundAttachment: "fixed",
               backgroundPosition: "center",
@@ -76,7 +76,7 @@ const Slideshow = () => {
             className="image-container"
             style={{
               width: "1400px",
-              height: "600px",
+              height: "500px",
               backgroundImage: `url(${fadeImages[3]})`,
               backgroundAttachment: "fixed",
               backgroundPosition: "center",
