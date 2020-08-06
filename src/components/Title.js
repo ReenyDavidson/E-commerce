@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade } from "react-slideshow-image";
+import "../styling/Title.css";
 import "react-slideshow-image/dist/styles.css";
 
 const fadeImages = [
@@ -26,7 +27,10 @@ const Slideshow = () => {
               backgroundSize: "cover",
             }}
           >
-            hajj ,
+            <div className="descr1">
+              <h1>LARS WIVALLUS</h1>
+              <h3>Speaking Luxury.</h3>
+            </div>
           </div>
         </div>
         <div className="each-fade">
@@ -42,7 +46,10 @@ const Slideshow = () => {
               backgroundSize: "cover",
             }}
           >
-            hwehkwerhk
+            <div className="descr2">
+              <h1>TIMEX</h1>
+              <h3>All New Summer Collections</h3>
+            </div>
           </div>
         </div>
         <div className="each-fade">
@@ -58,7 +65,10 @@ const Slideshow = () => {
               backgroundSize: "cover",
             }}
           >
-            bkjbbkj
+            <div className="descr3">
+              <h1>SAMSUNG</h1>
+              <h3>Reimagine Time</h3>
+            </div>
           </div>
         </div>
         <div className="each-fade">
@@ -74,7 +84,10 @@ const Slideshow = () => {
               backgroundSize: "cover",
             }}
           >
-            hkhkj
+            <div className="descr4">
+              <h1>Apple</h1>
+              <h3>It's more than a wristwatch.</h3>
+            </div>
           </div>
         </div>
       </Fade>
