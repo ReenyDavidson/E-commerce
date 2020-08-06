@@ -13,3 +13,62 @@
   text-align: center;
 }
 
+.descr3 {
+  position: absolute;
+  top: 25%;
+  left: 10rem;
+}
+.descr4 {
+  position: absolute;
+  top: 25%;
+  right: 1rem;
+}
+
+.descr1 {
+  position: absolute;
+  top: 25%;
+  right: 4rem;
+}
+.descr2 {
+  position: absolute;
+  top: 30%;
+  left: 5rem;
+}
+
+.descr1 > h1 {
+  font-size: 80px;
+  color: #ff1493;
+}
+.descr1 > h3 {
+  font-size: 30px;
+  color: #ff1493;
+  display: flex;
+}
+
+.descr2 > h1 {
+  font-size: 80px;
+  color: slategray;
+}
+.descr2 > h3 {
+  font-size: 30px;
+  color: slategray;
+}
+
+.descr3 > h1 {
+  font-size: 80px;
+  color: slategray;
+}
+.descr3 > h3 {
+  font-size: 30px;
+  color: slategray;
+}
+
+.descr4 > h1 {
+  font-size: 90px;
+  color: slategray;
+}
+.descr4 > h3 {
+  font-size: 40px;
+  color: slategray;
+}
+
