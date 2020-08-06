@@ -8,7 +8,7 @@ export default class Product extends Component {
     const { id, title, img, price, inCart } = this.props.product;
 
     return (
-      <div className="body">
+      
         <div className="card">
           <div
             className="img-view"
@@ -33,19 +33,18 @@ export default class Product extends Component {
                     Added to cart
                   </p>
                 ) : (
-                  <p className="icon">ADD TO CART</p>
+                  <p className="icon">Add to cart</p>
                 )}
               </button>
             </div>
           </div>
           <div className="card-footer">
             <p className="title">{title}</p>
-            <h5>
+            <br/>
               <span className="price">${price}</span>
-            </h5>
           </div>
         </div>
-      </div>
+      
     );
   }
 }

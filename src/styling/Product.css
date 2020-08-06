@@ -1,43 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
-body {
-  background-color: white;
-
-  padding-bottom: 10%;
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 5% auto;
+  text-align: center;
+  transition: all 1s linear;
+  
 }
 .card-footer {
   background-color: white;
 }
 .price {
-  background-color: white;
   position: relative;
   bottom: 20px;
 }
-.title {
-  background-color: white;
-}
-.button {
+
+.card button {
   border: none;
   color: white;
   font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
   background-color: lightcoral;
-  width: 95%;
+  width: 100%;
   height: 10%;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  /*
   position: absolute;
   bottom: 30%;
   left: 3px;
+  */
   opacity: 0;
   padding: 0.2rem 0.4rem;
   transition: all 0.6s linear;
 }
-.card {
-  padding-left: 10px;
-  margin-top: 60px;
-  margin-left: 25px;
-  transition: all 1s linear;
-}
+
 .img {
+  width: 300px;
   transition: all 0.8s linear;
 }
 .img-view {
@@ -54,4 +55,27 @@ body {
   transform: translate(0, 0);
   opacity: 1;
   cursor: pointer;
+}
+/* Product List styling */
+
+.watch-section-title{
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin:30px 35% 0;
+  padding: 30px;
+}
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width:768px){
+  
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 }

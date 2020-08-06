@@ -13,32 +13,21 @@ export default class ProductList extends Component {
             <Slideshow />
           </div>
         
-          <div
-            style={{
-              background: "black",
-              color: "white",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "30%",
-              marginLeft: "35%",
-              padding: "30px",
-            }}
-          >
+          <div class="watch-section-title">
             <h2>
               <strong> FEATURED WATCHES</strong>
             </h2>
           </div>
-          <div className="ui four column grid">
+          < div className="product-container">
             <ProductConsumer>
               {(context) => {
                 const { products } = context;
                 return products.map((product) => {
-                  return <Product key={product.id} product={product} />;
+                  return  <Product key={product.id} product={product} />;
                 });
               }}
             </ProductConsumer>
-          </div>
+            </div>
         </div>
       </React.Fragment>
     );

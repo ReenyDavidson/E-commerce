@@ -8,7 +8,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <nav className="nav-container">
-        <div className="brand-logo" >
+        <div className="brand-name" >
         <Link to="/">
             <strong>REACT-TEAM-K</strong>
         </Link>
