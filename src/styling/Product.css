@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
 body {
   background-color: white;
 
@@ -15,11 +17,41 @@ body {
   background-color: white;
 }
 .button {
-  border: 1px solid lightcoral;
-  background-color: white;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: lightcoral;
+  width: 95%;
+  height: 10%;
+  position: absolute;
+  bottom: 30%;
+  left: 3px;
+  opacity: 0;
+  padding: 0.2rem 0.4rem;
+  transition: all 0.6s linear;
 }
 .card {
   padding-left: 10px;
   margin-top: 60px;
   margin-left: 25px;
+  transition: all 1s linear;
+}
+.img {
+  transition: all 0.8s linear;
+}
+.img-view {
+  position: relative;
+  overflow: hidden;
+}
+.img-view:hover .img {
+  transform: scale(1.2);
+}
+.img:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.img-view:hover .button {
+  transform: translate(0, 0);
+  opacity: 1;
+  cursor: pointer;
 }
