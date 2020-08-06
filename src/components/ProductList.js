@@ -40,7 +40,6 @@ export default class ProductList extends Component {
             <h2>
               <strong> FEATURED WATCHES.</strong>
             </h2>
-            {/* <SearchField placeholder="search items" handleChange={this.handleChange}/> */}
           </div>
           <SearchField placeholder="search items" handleChange={this.handleChange}/>
           <div className="ui four column grid">
