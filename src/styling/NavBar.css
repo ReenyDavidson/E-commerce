@@ -1,11 +1,16 @@
-nav {
-  background-color: transparent;
+.nav-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
+  background-color: #ffffff;
+  padding: 20px;
+  
 }
-
+.brand-name{
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+}
 .nav-menu {
   list-style: none;
 }
@@ -26,5 +31,5 @@ nav {
 }
 
 .cart {
-  width: 30px;
+  width: 2rem;
 }
