@@ -18,27 +18,18 @@ export default class Detail extends Component {
             inCart,
           } = context.details;
           return (
-            <div>
-              <div className="title">
-                <h1>{title}</h1>
-              </div>
+            <React.Fragment>
+            <h1 className="title">{title}</h1>
+            <div className="card">
               <div className="product-info">
                 <div className="container1">
                   <img src={img} alt="product" className="prod-img" />
                 </div>
-                <div className="line"></div>
+                {/*<div className="line"></div>*/}
                 <div className="container2">
-                  <div className="prod-author-container">
-                    <h2 className="prod-author">AUTHOR: {company}</h2>
-                  </div>
-                  <div className="prod-price-container">
-                    <h4 className="prod-price">PRICE: ${price}</h4>
-                  </div>
-                  <div className="prod-info-container">
-                    <p className="prod-info">
-                      <strong>{info}</strong>
-                    </p>
-                  </div>
+                    <h2 className="prod-author">{company}</h2>
+                    <h4 className="prod-price">${price}</h4>
+                 
                   <div>
                     <button
                       className="button1"
@@ -50,14 +41,21 @@ export default class Detail extends Component {
                       {inCart ? "ADDED TO CART" : "ADD TO CART"}
                     </button>
                   </div>
-                  <div>
-                    <Link to="/">
-                      <button className="button2">BACK TO HOME PAGE</button>
-                    </Link>
-                  </div>
+
                 </div>
               </div>
             </div>
+            <div className="prod-info-container">
+                    <p className="prod-info">
+                      <strong>{info}</strong>
+                    </p>
+                  </div>
+                  
+                    <Link to="/">
+                      <button className="button2">BACK TO HOME PAGE</button>
+                    </Link>
+                  
+            </React.Fragment>
           );
         }}
       </ProductConsumer>
