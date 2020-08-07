@@ -1,12 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-
-.card{
+.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 300px;
   margin: 5% auto;
   text-align: center;
   transition: all 1s linear;
-  
 }
 .card-footer {
   background-color: white;
@@ -25,7 +22,7 @@
   width: 100%;
   height: 10%;
   display: flex;
-   align-items: center;
+  align-items: center;
   justify-content: center;
   /*
   position: absolute;
@@ -58,24 +55,23 @@
 }
 /* Product List styling */
 
-.watch-section-title{
+.watch-section-title {
   background: black;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
-  margin:30px 35% 0;
+  margin: 30px 35% 0;
   padding: 30px;
 }
-.product-container{
+.product-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-@media screen and (max-width:768px){
-  
-.product-container{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+@media screen and (max-width: 768px) {
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
