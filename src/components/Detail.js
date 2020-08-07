@@ -20,7 +20,7 @@ export default class Detail extends Component {
           return (
             <React.Fragment>
             
-            <div className="card">
+            <div className="card-detail">
             <h1 className="title">{title}</h1>
               <div className="product-info">
                 <div className="container1">
