@@ -29,7 +29,8 @@ export default class App extends Component {
 
           <Route component={Default} />
         </Switch>
-        <Footer/>
+
+        <Route component={Footer} />
       </React.Fragment>
     );
   }
