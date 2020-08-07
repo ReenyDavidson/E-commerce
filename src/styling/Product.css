@@ -60,7 +60,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+ 
   width: 30%;
   margin: 30px 35% 0;
   padding: 30px;
@@ -73,5 +73,17 @@
   .product-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 500px;
+    margin: 5% auto;
+  }
+  .img{
+    width: 100%;
+  }
+  .watch-section-title{
+    width: 40%;
+    margin: 30px 35% 0;
+    padding: 30px;
   }
 }
