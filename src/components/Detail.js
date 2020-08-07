@@ -19,8 +19,9 @@ export default class Detail extends Component {
           } = context.details;
           return (
             <React.Fragment>
-            <h1 className="title">{title}</h1>
+            
             <div className="card">
+            <h1 className="title">{title}</h1>
               <div className="product-info">
                 <div className="container1">
                   <img src={img} alt="product" className="prod-img" />
@@ -51,8 +52,8 @@ export default class Detail extends Component {
                     </p>
                   </div>
                   
-                    <Link to="/">
-                      <button className="button2">BACK TO HOME PAGE</button>
+                    <Link to="/" className="button2">
+                     BACK TO HOME PAGE
                     </Link>
                   
             </React.Fragment>
