@@ -1,16 +1,17 @@
-.nav-container{
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
   padding: 20px;
-  
 }
-.brand-name{
+
+.brand-name {
   margin-left: 30px;
-  color: white;
-  text-decoration: none;
+  color: teal;
+  font-family: "Roboto Condensed", sans-serif;
 }
+
 .nav-menu {
   list-style: none;
 }
