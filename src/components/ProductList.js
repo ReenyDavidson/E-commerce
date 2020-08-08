@@ -25,7 +25,7 @@ export default class ProductList extends Component {
       selectedOption: null,
       view: null,
       sortColumn:{path:"price", order: 'asc'},
-      values: [2000]
+      values:[0]
     };
   }
 
@@ -58,7 +58,7 @@ export default class ProductList extends Component {
 
 
 
-      const {selectedOption, sortColumn} = this.state
+      const {selectedOption, sortColumn , values} = this.state
 
     const options = [
        "All", 'price', 'gender', 'brand'
@@ -95,15 +95,15 @@ export default class ProductList extends Component {
                     
                 </div>
 
-                 <div className="inline-flex ml">
-                    <h4 className="mr">Filter</h4>
+                 <div className="inline-flex ">
+                    <h4 className="mr ">Filter</h4>
                     <span>
                     <PriceRange
-                        values={this.state.values}
+                        values={values}
                         priceChange={this.handlePriceRange}
                        />
                        <div>
-                          <p>Find Items  less than {this.state.values}</p>
+                          <p>Find Items  less than {values}</p>
                        </div>
                        
                     </span>
@@ -117,7 +117,7 @@ export default class ProductList extends Component {
               {(context) => {
                 const { products } = context;
                 console.log("products", products)
-                const filtered = selectedOption  && selectedOption.value !== "All" ? products.filter(product=>product.price === selectedOption.value): products;
+                const filtered = values  && values[0] !== 0 ? products.filter(product=>product.price <= values[0]): products;
                 console.log(filtered)
                 const sorted = _.orderBy(filtered, [sortColumn.path], [sortColumn.order]);
                 console.log(sorted)
