@@ -9,6 +9,7 @@ import Default from "./Default";
 import { ThemeContextProvider } from "./contexts/ThemeContexts";
 import Detail from "./Detail";
 import Footer from "./Footer";
+import Modal from "./Modal";
 
 export default class App extends Component {
   render() {
@@ -29,8 +30,9 @@ export default class App extends Component {
 
           <Route component={Default} />
         </Switch>
+        <Modal />
 
-        <Route component={Footer} />
+        <Footer />
       </React.Fragment>
     );
   }
