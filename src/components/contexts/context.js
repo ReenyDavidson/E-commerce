@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { storeProducts, detailProduct } from "../Data";
+import { toast} from  'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
+
+toast.configure();
 const ProductContext = React.createContext();
 
 class ProductProvider extends Component {
@@ -35,6 +39,7 @@ class ProductProvider extends Component {
 
   addToCart = (id) => {
     console.log(`add to cart ${id}`);
+    toast.success('Items has bee added to cart')
   };
 
   render() {
