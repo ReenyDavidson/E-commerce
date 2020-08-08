@@ -27,12 +27,13 @@ export default class Product extends Component {
                     disabled={inCart ? true : false}
                     onClick={() => {
                       context.addToCart(id);
+                      context.openModal(id);
                     }}
                   >
                     {inCart ? (
                       <p className="in-cart" disabled>
                         {" "}
-                        Added to cart
+                        ADDED TO CART
                       </p>
                     ) : (
                       <p className="icon">ADD TO CART</p>
