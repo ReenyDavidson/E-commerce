@@ -66,8 +66,14 @@
   padding: 30px;
 }
 .product-container {
+  padding: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+}
+
+.star-rating{
+  padding-bottom: 2rem ;
 }
 @media screen and (max-width: 768px) {
   .product-container {

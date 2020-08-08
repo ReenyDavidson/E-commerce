@@ -1,7 +1,7 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Watch 1",
+    title: "Keep Moving Men Stone ice watch",
     img: require("../images/watch1.jpg"),
     price: 2000,
     company: "ARMANI",
@@ -14,7 +14,7 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Watch 2",
+    title: "Naviforce Top Luxury Brand",
     img: require("../images/watch2.jpg"),
     price: 3000,
     company: "VERSACE",
@@ -27,7 +27,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "Watch 3",
+    title: "Geneva Mens Watch",
     img: require("../images/watch3.jpg"),
     price: 4000,
     company: "LOUIS VUITTON",
@@ -39,7 +39,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Watch 4",
+    title: "Fagreen Business Watch",
     img: require("../images/watch4.jpg"),
     price: 5000,
     company: "ROLEX",
@@ -51,7 +51,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "Watch 5",
+    title: "Skmei Men Quartz Watch",
     img: require("../images/watch5.jpg"),
     price: 6000,
     company: "RD",
@@ -63,7 +63,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Watch 6",
+    title: "M3 Mens Watch",
     img: require("../images/watch6.jpg"),
     price: 7000,
     company: "RD",
@@ -77,7 +77,7 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "Watch 7",
+  title: "Geneva LED Luminous Watch",
   img: require("../images/watch7.jpg"),
   price: 7000,
   company: "RD",
