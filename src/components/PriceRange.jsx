@@ -9,7 +9,7 @@ class PriceRange extends Component {
 
 <Range
         
-        min={0}
+        min={1000}
         max={10000}
         values={this.props.values}
         onChange={this.props.priceChange}
@@ -20,7 +20,7 @@ class PriceRange extends Component {
               ...props.style,
               height: '6px',
               width: '100%',
-              backgroundColor: 'blue'
+              backgroundColor: 'pink'
             }}
           >
             {children}
@@ -31,9 +31,9 @@ class PriceRange extends Component {
             {...props}
             style={{
               ...props.style,
-              height: '32px',
-              width: '42px',
-              backgroundColor: '#ccc'
+              height: '15px',
+              width: '22px',
+              backgroundColor: 'black'
             }}
           />
         )}

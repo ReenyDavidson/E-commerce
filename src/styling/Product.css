@@ -103,6 +103,10 @@
   margin-bottom:2rem
   
 }
+
+.range{
+  margin-top: 100rem;
+}
 @media screen and (max-width: 768px) {
  
   .product-container {
