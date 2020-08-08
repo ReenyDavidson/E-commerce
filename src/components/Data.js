@@ -73,6 +73,18 @@ export const storeProducts = [
     count: 0,
     total: 0,
   },
+  {
+    id: 7,
+    title: "Watch 7",
+    img: require("../images/watch7.jpg"),
+    price: 7000,
+    company: "RD",
+    info:
+      "Lorem ipsum dolor s quis nostrud exercitatio onsequat. Duis aute irure dolor in reprehenderit in voluptate velit Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    inCart: false,
+    count: 0,
+    total: 0,
+  },
 ];
 
 export const detailProduct = {
