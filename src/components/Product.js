@@ -61,7 +61,7 @@ export default class Product extends Component {
                 <p className="title">{title}</p>
                 <br />
                 <span className="price">${price}</span>
-                  <div>
+                  <div className="star-rating">
                       <StarRatings
                         
                         starRatedColor="gold"
