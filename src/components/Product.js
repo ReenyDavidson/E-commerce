@@ -63,9 +63,7 @@ export default class Product extends Component {
                 <span className="price">${price}</span>
                   <div className="star-rating">
                       <StarRatings
-                        
                         starRatedColor="gold"
-                        
                         numberOfStars={5}
                         name='rating'
                         starDimension="20px"
