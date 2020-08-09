@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PayPalButton from "./PayPalButton";
 
-const CartTotals = ({ context }) => {
+const CartTotals = ({ context, history }) => {
   const { cartSubTotal, cartTax, cartTotal, clearCart } = context;
   return (
     <React.Fragment>
@@ -20,8 +21,8 @@ const CartTotals = ({ context }) => {
                 onClick={() => clearCart()}
                 style={{
                   border: "none",
-                  backgroundColor: "white",
-                  color: "black",
+                  backgroundColor: "black",
+                  color: "white",
                 }}
               >
                 CLEAR CART
@@ -39,6 +40,11 @@ const CartTotals = ({ context }) => {
               <span>TOTAL :</span>
               <strong>${cartTotal}</strong>
             </h5>
+            <PayPalButton
+              total={cartTotal}
+              clearCart={clearCart}
+              history={history}
+            />
           </div>
         </div>
       </div>
