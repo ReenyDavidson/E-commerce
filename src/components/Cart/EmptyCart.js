@@ -2,7 +2,7 @@ import React from "react";
 
 const EmptyCart = () => {
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <div>
         <div
           style={{
