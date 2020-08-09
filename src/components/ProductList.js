@@ -25,7 +25,7 @@ export default class ProductList extends Component {
             <Slideshow />
           </div>
 
-          <div class="watch-section-title">
+          <div className="watch-section-title">
             <h2>
               <strong> FEATURED WATCHES</strong>
             </h2>
