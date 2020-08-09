@@ -16,8 +16,7 @@ const CartItem = ({ item, context }) => {
         <img
           src={img}
           style={{ width: "5rem", height: "5rem" }}
-          alt="image"
-          className="img-fluid"
+          alt="product"
         />
       </div>
       <div>{title}</div>
