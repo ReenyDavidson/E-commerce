@@ -6,7 +6,6 @@ import ProductList from "./ProductList";
 import Product from "./Product";
 import Cart from "./Cart";
 import Default from "./Default";
-import { ThemeContextProvider } from "./contexts/ThemeContexts";
 import Detail from "./Detail";
 import Footer from "./Footer";
 import Modal from "./Modal";
@@ -24,9 +23,7 @@ export default class App extends Component {
 
           <Route path="/detail" component={Detail} />
 
-          <ThemeContextProvider>
-            <Route path="/cart" component={Cart} />
-          </ThemeContextProvider>
+          <Route path="/cart" component={Cart} />
 
           <Route component={Default} />
         </Switch>
