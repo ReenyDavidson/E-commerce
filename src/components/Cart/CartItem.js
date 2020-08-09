@@ -51,7 +51,7 @@ const CartItem = ({ item, context }) => {
         </div>
       </div>
       <div>
-        <i class="trash icon" onClick={() => removeItem(id)}></i>
+        <i className="trash icon" onClick={() => removeItem(id)}></i>
       </div>
       <div>
         <strong> ${total} </strong>
