@@ -4,8 +4,8 @@ const Footer = () => {
     return(
     <Fragment>
         <div className="footer-container">
-            <h2>Developed By React Team K. </h2>
-            <p>Wejapa Internship 2020</p>
+            <h2>Developed By ReenyDavidson. </h2>
+            <p>RD 2020</p>
         </div>
 
     </Fragment>
