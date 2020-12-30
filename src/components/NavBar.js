@@ -11,7 +11,7 @@ export default class NavBar extends Component {
         <div>
           <Link to="/">
             <h3 className="brand-name">
-              <strong>REACT-TEAM-K</strong>
+              <strong>GETWATCH</strong>
             </h3>
           </Link>
         </div>
